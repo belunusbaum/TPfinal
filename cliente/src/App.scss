@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    background-color:#ebebeb;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav{
+    background-color: #bc3b6a;
+    height: 40px;
+    display: flex;
+    margin-bottom: 3%;
+    // margin: auto;
+
+    .ada {
+     height: 25px;
+     margin: 0.5% 5%;
+    }
+}
+
+.search {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    margin: 0.5%;
+    .input {
+        width: 85%;
+        height: 20px;
+        border: solid 1px white;
+    }
+    .buscar {
+        padding: 2%;
+    }
+}
+.datos {
+    width: 65%;
+    margin: auto;
+}
+
+a:link, a:hover, a:visited, a:active, a {
+    text-decoration:none;
+    color:black;
+}
+
+ul {
+    display: flex;
+    /* flex-direction: row; */
+    list-style: none;
+    margin: auto;
+    /* margin-left: 3%; */
+    padding: 0%;
+        li {
+            padding: 5px;
+        }
+}
+
+.categories {
+    margin-left: 10%;
+    font-size: 14px;
+    padding: 0% 1% 1% 0%;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+        margin-top: 3px;
+    .image{
+        width: 20%;
+        flex: 2;
+    }
+        .img {
+            height: 95%;
+            
+        }
+}
+
+   
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: unset;
+    flex: 4;
+    p {
+        height: 60%;
+        display: flex;
+        margin: 5%;
+    
+    }   
+}
+
+
+.price-shipping {
+    align-items: center;
+    display: flex;
+    margin: 3%;
+    
+    .shipping {
+        width: 6%;
+        margin: 1%;
+    }
+
+}
+
+
+.cont {
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    .product{
+        width: 80%;
+    }
+        img {
+            width: 97%;
+        }
+}
+
+.info {
+    width: 50%;
+    margin-top: 5%;
+}
+
+.price {
+    display: flex;
+    align-items: self-start;
+    .decimal {
+        font-size: 10px;
+       
+    }
+}
+
+.condition {
+    font-size: 12px;
+}
+
+.boton {
+    button {
+        background-color: #3383F9;
+        border: solid #3383F9;
+        text-align: center;
+        width: 80%;
+        height: 40px;
+
+    }
+}
+
+
+
+.loc {
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+    flex: 3;
+}
+
+.priceDet {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.description, .tit {
+    font-weight: bold;
+}
+
+.descriptionProduct {
+    font-size: 14px;
+}
